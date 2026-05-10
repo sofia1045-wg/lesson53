@@ -8,7 +8,7 @@ void sort_selected(int array[], int size) {
 
 		for (int j = i + 1; j < size; j++)
 		{
-			if (array[index] < array[j]) {
+			if (array[index] > array[j]) {
 				index = j;
 			}
 		}
